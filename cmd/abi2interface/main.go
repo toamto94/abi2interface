@@ -116,7 +116,6 @@ func main() {
 				log.Fatalf("Could not write %v", *outputFile)
 			}
 		}
-
 	}
 
 	if _, err := o.Write([]byte("}")); err != nil {
